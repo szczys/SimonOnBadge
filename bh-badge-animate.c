@@ -239,7 +239,7 @@ void animateBadge(void) {
         if (getTime() > nextTime) {
             //lastTime = getTime();
             nextTime = getTime()+1000;
-            Buffer[14] ^= 0xFF;
+            Buffer[1] ^= 0xFF;
             displayLatch();
         }
         

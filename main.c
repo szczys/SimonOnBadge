@@ -28,7 +28,7 @@ void interrupt high_priority interrupt_at_high_vector(void)
     /***** End User Code for high priority interrupts *****/
     
     //this ASM call must end the function (needed for kernel compliance)
-    asm("goto 0x1008");
+    asm("goto 0x2B08");
 }
 
 // LOW VECTOR
@@ -41,7 +41,7 @@ void interrupt low_priority interrupt_at_low_vector(void)
     /***** End User Code for low priority interrupts *****/
     
     //this ASM call must end the function (needed for kernel compliance)
-    asm("goto 0x1008");
+    asm("goto 0x2B18");
 }
 
 /*****End Kernel Compliance Section********************************************/

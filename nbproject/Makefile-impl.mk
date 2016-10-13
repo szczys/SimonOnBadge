@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=la-badge-simon.X
+PROJECTNAME=SimonOnBadge
 
 # Active Configuration
 DEFAULTCONF=default
